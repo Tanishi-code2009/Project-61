@@ -1,0 +1,92 @@
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    text-align: center;
+    background: linear-gradient( #faf741 0%, #f20a92 100%);
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+
+}
+
+img {
+    height: 400px;
+    width: 200px;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9) transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+#myname {
+    font-family: 'Courgette', cursive;
+    color: darkblue;
+    font-size: 30px;
+}
+
+h1 {
+    text-shadow: 2px 2px blue;
+    font-size: 35px;
+}
+
+#mydance {
+    color: #300136;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+p {
+    font-size: 19px;
+    color: black;
+    font-weight: 200px;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: aliceblue;
+}
+
+.links {
+    list-style: none;
+    float: inherit;
+    top: 10px;
+    left: inherit;
+    cursor: pointer;
+    color: darkblue;
+    font-family: fantasy;
+    font-size: 25px;
+
+}
+#contact{
+    background: firebrick;
+}
+.contact_1 a{
+  color: white;
+    text-shadow: none;
+}
+.contact_1 h3{
+    display: inline;
+}
+#contact iframe{
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px blue;
+}
+
+.article:hover {
+    color: crimson;
+}
